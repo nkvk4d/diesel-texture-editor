@@ -1,2 +1,12 @@
 <img width="1098" height="783" alt="Снимок экрана от 2026-06-13 22-02-17" src="https://github.com/user-attachments/assets/6ebbb0f8-87f2-4493-809f-d063b9e6c1d1" />
 This program was created to quickly edit and make .texture files for Payday: The Heist on Linux, since I couldn’t find any normal alternatives — they’re all bearded and full of .NET bullshit. I didn’t finish it, and most likely never will, so don’t expect any releases. The gist is: you drop an image into it, edit it if you want, then export it to .texture. Sure, it’ll make you a .texture, but when you test it, the game will probably just crash. And by the way, only ImageMagick works — forget about Crunch and texconv, they’re just there for decoration. Logically, it should open .texture files, but it doesn’t because of some fucking magical error. So if you want to edit a .texture, you’ll have to do it manually. I’m tired of figuring out why the fucking PDTH keeps crashing from its files — they seem similar to working .texture files. So I’m dumping this in a half-working state. Do whatever the fuck you want with it.
+
+| Компонент | Команда установки |
+|-----------|-------------------|
+| **Ruby** | `sudo apt install ruby ruby-dev` |
+| **GTK3** | `sudo apt install libgtk-3-dev` |
+| **Cairo** | `sudo apt install libcairo2-dev` |
+| **ImageMagick** | `sudo apt install imagemagick` |
+| **Wine** | `sudo apt install wine` |
+| **Gem'ы** | `gem install gtk3 cairo fileutils json rubyzip` |
+
